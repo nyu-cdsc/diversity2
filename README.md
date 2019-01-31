@@ -1,1 +1,1 @@
-This application (currently under development) is used to design and run psychological experiments. 
+This application (under construction) will be used to run study examining children's diversity-based reasoning. 
