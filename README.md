@@ -1,3 +1,5 @@
+## Application for running Diversity 2
+
 This application (under construction) will be used to run study examining children's diversity-based reasoning. 
 
 
