@@ -18,8 +18,8 @@ var introductionvideo= [
   },
 ]
 
-  var TrainingVideos_a = [
-  //movie with no response
+var TrainingVideos_a = [
+  //movie with no response 1a
   {
     type: 'action',
     id: 'training1a',
@@ -32,7 +32,23 @@ var introductionvideo= [
       }     
     ]
   },
-  //movie with no response 
+    // movie where a response is recorded 2a
+  {
+    type: 'action',
+    id: 'training2a',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/version_a/3 Training Recording 2', // movie, first one that records stimuli
+          coordinates: [
+            { value: 'left', shape: "rect", coordinates: "151, 26, 151, 153" }, // left, top, right, bottom,
+            { value: 'right', shape: "rect", coordinates: "672, 48, 926, 732" }],
+        }
+      }
+    ]
+  },
+  //movie with no response 2.5a
   {
     type: 'action',
     id: 'training2.5a',
@@ -45,16 +61,213 @@ var introductionvideo= [
       }     
     ]
   },
-  
-  // movie where a response is recorded
+
+ // movie where a response is recorded 3a
+
+ {
+  type: 'action',
+  id: 'training3a',
+  stimuli: [
+    {
+      type: 'movie',
+      parameters: {
+        filename: '../../../assets/movie/5 Training Recording 3.m4v', // movie
+        coordinates: [
+          { value: 'left', shape: "rect", coordinates: "120, 56, 370, 728" }, // left, top, right, bottom,
+          { value: 'right', shape: "rect", coordinates: "672, 48, 926, 732" }],
+      }
+    }
+  ]
+},
+    //movie with no response 3.5a
   {
     type: 'action',
-    id: 'trainin2a',
+    id: 'training3.5a',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_a/3 Training Recording 2', // movie, first one that records stimuli
+          filename: '../../../assets/movie/version_a/6 Training Recording 3.5.m4v' // This is the introductory video for version a
+        }
+      }     
+    ]
+  },
+     // movie where a response is recorded 4a
+
+     {
+      type: 'action',
+      id: 'training4a',
+      stimuli: [
+        {
+          type: 'movie',
+          parameters: {
+            filename: '../../../assets/movie/7 Training Recording 4.m4v', // movie
+            coordinates: [
+              { value: 'left', shape: "rect", coordinates: "120, 56, 370, 728" }, // left, top, right, bottom,
+              { value: 'right', shape: "rect", coordinates: "672, 48, 926, 732" }],
+          }
+        }
+      ]
+    },
+    //movie with no response 4.5a
+    {
+      type: 'action',
+      id: 'training4.5a',
+      stimuli: [
+        {
+          type: 'movie',
+          parameters: {
+            filename: '../../../assets/movie/version_a/8 Training Recording 4.5.m4v' // This is the introductory video for version a
+          }
+        }     
+      ]
+    },
+
+    // movie where a response is recorded 5a
+
+    {
+      type: 'action',
+      id: 'training5a',
+      stimuli: [
+        {
+          type: 'movie',
+          parameters: {
+            filename: '../../../assets/movie/9 Training Recording 5.m4v', // movie
+            coordinates: [
+              { value: 'left', shape: "rect", coordinates: "120, 56, 370, 728" }, // left, top, right, bottom,
+              { value: 'right', shape: "rect", coordinates: "672, 48, 926, 732" }],
+          }
+        }
+      ]
+    },
+    //movie with no response 5.5a
+    {
+      type: 'action',
+      id: 'training5.5a',
+      stimuli: [
+        {
+          type: 'movie',
+          parameters: {
+            filename: '../../../assets/movie/version_a/10 Training Recording 5.5.m4v' // This is the introductory video for version a
+          }
+        }     
+      ]
+    },
+    // movie where a response is recorded 6a
+
+    {
+      type: 'action',
+      id: 'training6a',
+      stimuli: [
+        {
+          type: 'movie',
+          parameters: {
+            filename: '../../../assets/movie/11 Training Recording 6.m4v', // movie
+            coordinates: [
+              { value: 'left', shape: "rect", coordinates: "120, 56, 370, 728" }, // left, top, right, bottom,
+              { value: 'right', shape: "rect", coordinates: "672, 48, 926, 732" }],
+          }
+        }
+      ]
+    },
+    //movie with no response 6.5a
+    {
+      type: 'action',
+      id: 'training6.5a',
+      stimuli: [
+        {
+          type: 'movie',
+          parameters: {
+            filename: '../../../assets/movie/version_a/12 Training Recording 6.5.m4v' // This is the introductory video for version a
+          }
+        }     
+      ]
+    },
+    //movie with no response practicetransitiona
+    {
+      type: 'action',
+      id: 'ptransitiona',
+      stimuli: [
+        {
+          type: 'movie',
+          parameters: {
+            filename: '../../../assets/movie/version_a/13 Practice Transition.m4v' // This is the introductory video for version a
+          }
+        }     
+      ]
+    },
+      
+    // movie where a response is recorded 1 cake a
+
+    {
+      type: 'action',
+      id: 'cake1a',
+      stimuli: [
+        {
+          type: 'movie',
+          parameters: {
+            filename: '../../../assets/movie/14 Item Training 1 Cake.m4v', // movie
+            coordinates: [
+              { value: 'left', shape: "rect", coordinates: "120, 56, 370, 728" }, // left, top, right, bottom,
+              { value: 'right', shape: "rect", coordinates: "672, 48, 926, 732" }],
+          }
+        }
+      ]
+    },
+    //movie with no response 1.5 cake a
+   {
+      type: 'action',
+      id: 'cake1.5a',
+      stimuli: [
+        {
+          type: 'movie',
+          parameters: {
+            filename: '../../../assets/movie/version_a/15 Item Training 1.5 Cake.m4v' // This is the introductory video for version a
+          }
+        }     
+      ]
+    },
+      
+    // movie where a response is recorded 2 fingers a
+
+    {
+      type: 'action',
+      id: 'fingers2a',
+      stimuli: [
+        {
+          type: 'movie',
+          parameters: {
+            filename: '../../../assets/movie/16 Item Training 2 Fingers.m4v', // movie
+            coordinates: [
+              { value: 'left', shape: "rect", coordinates: "120, 56, 370, 728" }, // left, top, right, bottom,
+              { value: 'right', shape: "rect", coordinates: "672, 48, 926, 732" }],
+          }
+        }
+      ]
+    },
+    //movie with no response 2.5 fingers a
+  {
+    type: 'action',
+    id: 'fingers2.5a',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/version_a/17 Item Training 2.5 Fingers.m4v' // This is the introductory video for version a
+        }
+      }     
+    ]
+  },
+   // movie where a response is recorded 3 girls a
+
+   {
+    type: 'action',
+    id: 'girls3a',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/18 Item Training 3 Girls.m4v', // movie
           coordinates: [
             { value: 'left', shape: "rect", coordinates: "120, 56, 370, 728" }, // left, top, right, bottom,
             { value: 'right', shape: "rect", coordinates: "672, 48, 926, 732" }],
@@ -62,21 +275,83 @@ var introductionvideo= [
       }
     ]
   },
-  {
-    type: 'action',
-    id: 'friction1',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/3 Training Recording 2.m4v', // movie
-          coordinates: [
-            { value: 'left', shape: "rect", coordinates: "120, 56, 370, 728" }, // left, top, right, bottom,
-            { value: 'right', shape: "rect", coordinates: "672, 48, 926, 732" }],
-        }
+  //movie with no response 3.5 girls a
+{
+  type: 'action',
+  id: 'girls3.5a',
+  stimuli: [
+    {
+      type: 'movie',
+      parameters: {
+        filename: '../../../assets/movie/version_a/19 Item Training 3.5 Girls.m4v' // This is the introductory video for version a
       }
-    ]
-  },
+    }     
+  ]
+},
+// movie where a response is recorded 4 pool a
+
+{
+  type: 'action',
+  id: 'pool4a',
+  stimuli: [
+    {
+      type: 'movie',
+      parameters: {
+        filename: '../../../assets/movie/20 Item Training 4 Pool.m4v', // movie
+        coordinates: [
+          { value: 'left', shape: "rect", coordinates: "120, 56, 370, 728" }, // left, top, right, bottom,
+          { value: 'right', shape: "rect", coordinates: "672, 48, 926, 732" }],
+      }
+    }
+  ]
+},
+//movie with no response 4.5 pool a
+{
+type: 'action',
+id: 'pool4.5a',
+stimuli: [
+  {
+    type: 'movie',
+    parameters: {
+      filename: '../../../assets/movie/version_a/21 Item Training 4.5 Pool.m4v' // This is the introductory video for version a
+    }
+  }     
+]
+},
+ // movie where a response is recorded 5 brothers a
+
+ {
+  type: 'action',
+  id: 'brothers5a',
+  stimuli: [
+    {
+      type: 'movie',
+      parameters: {
+        filename: '../../../assets/movie/22 Item Training 5 Brothers.m4v', // movie
+        coordinates: [
+          { value: 'left', shape: "rect", coordinates: "120, 56, 370, 728" }, // left, top, right, bottom,
+          { value: 'right', shape: "rect", coordinates: "672, 48, 926, 732" }],
+      }
+    }
+  ]
+},
+//movie with no response 5.5 brothers a
+
+
+  {
+type: 'action',
+id: 'brothers5.5a',
+stimuli: [
+  {
+    type: 'movie',
+    parameters: {
+      filename: '../../../assets/movie/version_a/23 Item Training 5.5 Brothers.m4v' // This is the introductory video for version a
+    }
+  }     
+]
+  } 
+    
+  ]
   // picture where a response is recorded
   // {
   //   type: 'action',
@@ -110,7 +385,7 @@ var startGame = [
         },
       }
     ]
-  },
+  }
 ]
 
 
@@ -333,9 +608,10 @@ var startGame = [
 // Conditions are composed of a series of blocks.
 // Generally, the blocks within a condition will be displayed in linear order
 
-var testgame1 = [
+var versionA = [
   startGame,
-  introductionvideo
+  introductionvideo,
+  TrainingVideos_a
 ];
 
  // For blocks to be randomly displayed, use the "shuffle" control
@@ -367,10 +643,10 @@ var testgame1 = [
 
 export const Project = {
   conditions: [ // list all of your conditions here. Participants are randomly assigned to one of them
-    Condition1,
+    versionA,
     // Condition2
   ],
-  name: "Diversity2", // Put the name of your study here
+  name: "Diversity2", 
   ended: { // this what happens when your study ends i.e., the last thing that happens before the study restarts
     // right now, I have it set to play a movie that says "Great job!"
     type: 'action',
