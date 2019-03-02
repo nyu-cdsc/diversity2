@@ -2,6 +2,7 @@ import { Component, OnInit, Input, Output, EventEmitter, ElementRef, ViewChild, 
 import { Stimuli, Responsive } from '../stimuli';
 import { Message } from '../../../message';
 import { AreaComponent } from '../../responders/area/area.component';
+import { MovieComponent } from '../movie/movie.component';
 
 @Component({
   selector: 'toku-picture',
@@ -15,9 +16,12 @@ export class PictureComponent implements Stimuli, Responsive, OnInit, AfterViewC
   @Input() responseEnabled = true; // this can be disabled by parent via [responseEnabled]
   @ViewChild(AreaComponent) areamap: AreaComponent;
   @ViewChild('theimage') theimage: ElementRef;
+  value: null;
 
   constructor() { }
-  ngOnInit() { }
+  ngOnInit() {
+
+  }
 
   // defect with Angular. null safety check is broken for attribute assignment.
   // height would be set to 0 even if we did not have height in our parameters as
@@ -30,7 +34,11 @@ export class PictureComponent implements Stimuli, Responsive, OnInit, AfterViewC
     if (this.parameters.width) {
       this.theimage.nativeElement.width = this.parameters.width;
     }
-    // this.areamap.scalingFactor = this.getScalingFactor();
+
+    if ((this.value == null || this.value === 0) && innerWidth < 1920) {
+      this.parameters.scalingFactor = this.getScalingFactor();
+      this.value = this.parameters.naturalHeight;
+    }
   }
 
   sendMessage(message: Message) {
@@ -38,7 +46,6 @@ export class PictureComponent implements Stimuli, Responsive, OnInit, AfterViewC
     // todo Response val as in the one inside Params and choice made (perhaps change Response to Choice to make
     // it clear the level it's from)
     this.responseEvent.emit(message);
-    // todo support multiple reponses in future
     this.done();
   }
 
@@ -51,10 +58,11 @@ export class PictureComponent implements Stimuli, Responsive, OnInit, AfterViewC
   }
 
   getScalingFactor() {
-    const width = this.theimage.nativeElement.width;
-    const nwidth = this.theimage.nativeElement.naturalWidth;
-    const height = this.theimage.nativeElement.height;
-    const nheight = this.theimage.nativeElement.naturalHeight;
+    console.log('parameters width', this.parameters.coordinates.width, this.parameters.coordinates.naturalWidth);
+    const width = this.parameters.width;
+    const nwidth = this.parameters.naturalWidth;
+    const height = this.parameters.height;
+    const nheight = this.parameters.naturalHeight;
     console.log(width, height, nwidth, nheight);
 
     // TODO ^ make sure I didn't get width/nwidth flipped!

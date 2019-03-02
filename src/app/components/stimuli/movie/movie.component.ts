@@ -3,6 +3,7 @@ import { Component, OnInit, Input, Output, EventEmitter, ElementRef, ViewChild }
 import { Stimuli, Responsive } from '../stimuli';
 import { Message } from '../../../message';
 
+
 @Component({
   selector: 'toku-movie',
   templateUrl: './movie.component.html',
@@ -25,14 +26,33 @@ export class MovieComponent implements Stimuli, Responsive, OnInit {
       this.pictureParameters = {};
       this.pictureParameters.coordinates = this.parameters.coordinates;
       this.pictureParameters.filename = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=';
+      if (innerWidth < 1920) {
+        this.pictureParameters.width = innerWidth * .80;
+        this.pictureParameters.naturalWidth = this.thevideo.nativeElement.videoWidth;
+        this.pictureParameters.naturalHeight = this.thevideo.nativeElement.videoHeight;
+        this.pictureParameters.height = innerHeight * .80 * ((innerWidth / innerHeight) /
+          (this.pictureParameters.naturalWidth / this.pictureParameters.naturalHeight));
+      } else {
+        this.pictureParameters.width = this.thevideo.nativeElement.videoWidth;
+        this.pictureParameters.height = this.thevideo.nativeElement.videoHeight;
+      }
     }
   }
 
   videoStarted() {
     // setting width and height for "invisible picture"
     if (this.parameters.coordinates) {
-      this.pictureParameters.width = this.thevideo.nativeElement.videoWidth;
-      this.pictureParameters.height = this.thevideo.nativeElement.videoHeight;
+
+      if (innerWidth < 1920) {
+        this.pictureParameters.width = innerWidth * .80;
+        this.pictureParameters.naturalWidth = this.thevideo.nativeElement.videoWidth;
+        this.pictureParameters.height = innerHeight * .80 * ((innerWidth / innerHeight) /
+          (this.thevideo.nativeElement.videoWidth / this.thevideo.nativeElement.videoHeight));
+        this.pictureParameters.naturalHeight = this.thevideo.nativeElement.videoHeight;
+      } else {
+        this.pictureParameters.width = this.thevideo.nativeElement.videoWidth;
+        this.pictureParameters.height = this.thevideo.nativeElement.videoHeight;
+      }
     }
   }
 
