@@ -20,18 +20,18 @@ var introductionvideo = [
 
 var TrainingVideos_a = [
   //movie with no response 1a
-  // {
-  //   type: 'action',
-  //   id: 'training1a',
-  //   stimuli: [
-  //     {
-  //       type: 'movie',
-  //       parameters: {
-  //         filename: '../../../assets/movie/version_a/2 Training Recording 1 (spedup).m4v' // This is the introductory video for version a
-  //       }
-  //     }
-  //   ]
-  // },
+  //{
+  //type: 'action',
+  //id: 'training1a',
+  //stimuli: [
+  //  {
+  //  type: 'movie',
+  //parameters: {
+  //filename: '../../../assets/movie/version_a/2 Training Recording 1 (spedup).m4v' // This is the introductory video for version a
+  //}
+  //}
+  // ]
+  //},
   // movie where a response is recorded 2a
   {
     type: 'action',
@@ -47,6 +47,7 @@ var TrainingVideos_a = [
             { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
             { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
             { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+
         }
       }
     ]
@@ -1493,6 +1494,8 @@ var shuffleorder3b = [
 
 ///////// Sample way to Start Game ////////
 var startGame = [
+
+
   {
     type: 'action',
     id: 'start',
@@ -1698,30 +1701,30 @@ var startGame = [
 // and providing a new name for the var (i.e., change "var forms" to another name (e.g., "var differentForm"))
 // I would generally limit the number of questions per screen to about 5
 
-// var forms = {
-//   type: 'action',
-//   id: 'form', // you can change the name of this form to whatever
-//   stimuli: [
-//     {
-//       type: 'form',
-//       parameters: {
-//         questions: [
-//           // this is where you put the questions on the form
-//           // each line reflects its own question
-//           // you can have two types of questions as of now: "text" and "dropdown"
-//           // 'name:' specifies the id that will be outputed into the exported data csv file
-//           // 'type:' specifies the type of question you want, "text" or "dropdown"
-//           // 'questionText:' specifies the question that will be displayed on the screen
-//           // 'options:' specifies the options for the dropdown question; you do not use 'options' for text questions
-//           { name: 'id', type: "text", questionText: "Participant ID" },
-//           { name: 'gender', type: "dropdown", options: ["female", "male", "other"], questionText: "Participant Gender" },
-//           { name: 'age', type: "dropdown", options: ["4", "5", "6"], questionText: "Participant Age" },
-//           { name: 'color', type: "text", questionText: "What's your favorite color?" }
-//         ],
-//       }
-//     }
-//   ]
-// }
+var forms = {
+  type: 'action',
+  id: 'form', // you can change the name of this form to whatever
+  stimuli: [
+    {
+      type: 'form',
+      parameters: {
+        questions: [
+          //           // this is where you put the questions on the form
+          //           // each line reflects its own question
+          //           // you can have two types of questions as of now: "text" and "dropdown"
+          //           // 'name:' specifies the id that will be outputed into the exported data csv file
+          //           // 'type:' specifies the type of question you want, "text" or "dropdown"
+          //           // 'questionText:' specifies the question that will be displayed on the screen
+          //           // 'options:' specifies the options for the dropdown question; you do not use 'options' for text questions
+          { name: 'id', type: "text", questionText: "Participant ID" },
+          { name: 'gender', type: "dropdown", options: ["female", "male", "other"], questionText: "Participant Gender" },
+          { name: 'age', type: "dropdown", options: ["4", "5", "6", "7", "8", "9", "10"], questionText: "Participant Age" },
+          //           { name: 'color', type: "text", questionText: "What's your favorite color?" }
+        ],
+      }
+    }
+  ]
+}
 
 
 ///////// The Conditions /////////
@@ -1730,35 +1733,54 @@ var startGame = [
 // Conditions are composed of a series of blocks.
 // Generally, the blocks within a condition will be displayed in linear order
 
-var versionA = [
+var versionA_shuffle1 = [
+  //forms,
   startGame,
-  introductionvideo,
+  // introductionvideo,
   TrainingVideos_a,
-  [
-    shuffleorder1,
-    shuffleorder2,
-    shuffleorder3,
-    {
-      type: 'control',
-      shuffle: true
-    }
-  ]
+  shuffleorder1
 ];
 
-var versionB = [
+var versionA_shuffle2 = [
+  //forms,
+  // startGame,
+  // introductionvideo,
+  TrainingVideos_a,
+  shuffleorder2
+];
+
+var versionA_shuffle3 = [
+  //forms,
+  // startGame,
+  // introductionvideo,
+  TrainingVideos_a,
+  shuffleorder3
+];
+
+var versionB_shuffle1 = [
+  //forms,
   startGame,
-  introductionvideo,
+  //introductionvideo,
   TrainingVideos_b,
-  [
-    shuffleorder1b,
-    shuffleorder2b,
-    shuffleorder3b,
-    {
-      type: 'control',
-      shuffle: true
-    }
-  ]
-]
+  shuffleorder1b,
+];
+
+var versionB_shuffle2 = [
+  //forms,
+  startGame,
+  //introductionvideo,
+  TrainingVideos_b,
+  shuffleorder2b
+];
+
+var versionB_shuffle3 = [
+  //forms,
+  startGame,
+  //introductionvideo,
+  TrainingVideos_b,
+  shuffleorder3b
+];
+
 
 
 
@@ -1791,7 +1813,12 @@ var versionB = [
 
 export const Project = {
   conditions: [ // list all of your conditions here. Participants are randomly assigned to one of them
-    versionA
+    versionA_shuffle1,
+    // versionA_shuffle2,
+    // versionA_shuffle3,
+    // versionB_shuffle1,
+    // versionB_shuffle2,
+    // versionB_shuffle3
     // Condition2
   ],
   name: "Diversity2",
