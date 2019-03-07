@@ -224,11 +224,11 @@ var TrainingVideos_a = [
           parameters: {
             filename: '../../../assets/movie/version_a/14 Item Training 1 Cake.m4v', // movie
             coordinates: [
-              { value: '1', shape: "rect", coordinates: "50, 100, 350, 800" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 150, 725, 750" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 200, 1100, 700" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 250, 1475, 650" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+              { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+            { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+            { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+            { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
           }
         }
       ]
@@ -258,11 +258,11 @@ var TrainingVideos_a = [
           parameters: {
             filename: '../../../assets/movie/version_a/16 Item Training 2 Fingers.m4v', // movie
             coordinates: [
-              { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+              { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+            { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+            { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+            { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
           }
         }
       ]
@@ -291,11 +291,11 @@ var TrainingVideos_a = [
         parameters: {
           filename: '../../../assets/movie/version_a/18 Item Training 3 Girls.m4v', // movie
           coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+            { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+            { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+            { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+            { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
         }
       }
     ]
@@ -324,11 +324,11 @@ var TrainingVideos_a = [
       parameters: {
         filename: '../../../assets/movie/version_a/20 Item Training 4 Pool.m4v', // movie
         coordinates: [
-          { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+            { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+            { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+            { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+            { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
       }
     }
   ]
@@ -357,11 +357,11 @@ stimuli: [
       parameters: {
         filename: '../../../assets/movie/version_a/22 Item Training 5 Brothers.m4v', // movie
         coordinates: [
-          { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+            { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+            { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+            { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+            { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
       }
     }
   ]
@@ -606,11 +606,11 @@ stimuli: [
             parameters: {
               filename: '../../../assets/movie/version_b/14 Item Training Cake a.m4v', // movie
               coordinates: [
-                { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+                { value: '1', shape: "rect", coordinates: "50, 690, 355, 995" }, // just two
+            { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+            { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+            { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
             }
           }
         ]
@@ -640,11 +640,11 @@ stimuli: [
             parameters: {
               filename: '../../../assets/movie/version_b/16 Item Training Fingers a.m4v', // movie
               coordinates: [
-                { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+                { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+            { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+            { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+            { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
             }
           }
         ]
@@ -673,11 +673,11 @@ stimuli: [
           parameters: {
             filename: '../../../assets/movie/version_b/18 Item Training Girls a.m4v', // movie
             coordinates: [
-              { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+              { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+            { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+            { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+            { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
           }
         }
       ]
@@ -706,11 +706,11 @@ stimuli: [
         parameters: {
           filename: '../../../assets/movie/version_b/20 Item Training Pool a.m4v', // movie
           coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+            { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+            { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+            { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+            { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
         }
       }
     ]
@@ -739,11 +739,11 @@ stimuli: [
         parameters: {
           filename: '../../../assets/movie/version_b/22 Item Training Baby a.m4v', // movie
           coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+            { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+            { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+            { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+            { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
         }
       }
     ]
@@ -765,7 +765,7 @@ stimuli: [
   ]
     },
 
-    //movie with no response animals game transitiona
+    //movie with no response animals game transition
   {
     type: 'action',
     id: 'agtransitionb',
@@ -795,11 +795,11 @@ var shuffleorder1 = [
         parameters: {
           filename: '../../../assets/movie/version_a/25 Cheetah A.mov', // This is the cheetah A video for version A, shuffle order 1
            coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+            { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
+            { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
+            { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
+            { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
+            { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
         },
       }     
     ]
@@ -814,11 +814,11 @@ var shuffleorder1 = [
         parameters: {
           filename: '../../../assets/movie/version_a/29 Porcupine B.mov', // This is the Porc. b video for version A, shuffle order 1
            coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+            { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
+            { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
+            { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
+            { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
+            { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
         },
       }     
     ]
@@ -833,11 +833,11 @@ var shuffleorder1 = [
         parameters: {
           filename: '../../../assets/movie/version_a/26 Giraffe C.mov', // This is the giraffe c video for version A, shuffle order 1
            coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+            { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
+            { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
+            { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
+            { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
+            { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
         },
       }     
     ]
@@ -852,11 +852,11 @@ var shuffleorder1 = [
         parameters: {
           filename: '../../../assets/movie/version_a/30 Shark C.mov', // This is the shark c video for version A, shuffle order 1
            coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+                { value: '1', shape: "rect", coordinates: "85, 625, 300, 840" }, // just two
+                { value: '2', shape: "rect", coordinates: "350, 625, 565, 840" }, // a few
+                { value: '3', shape: "rect", coordinates: "620, 625, 830, 840" },//some
+                { value: '4', shape: "rect", coordinates: "880, 625, 1095, 840" },//most
+                { value: '5', shape: "rect", coordinates: "1150, 625, 1360, 840" }], // all,
         },
       }     
     ]
@@ -871,11 +871,11 @@ var shuffleorder1 = [
         parameters: {
           filename: '../../../assets/movie/version_a/27 Kangaroo A.mov', // This is the kangaroo a video for version A, shuffle order 1
            coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+            { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
+            { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
+            { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
+            { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
+            { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
         },
       }     
     ]
@@ -890,11 +890,11 @@ var shuffleorder1 = [
         parameters: {
           filename: '../../../assets/movie/version_a/28 Lion B.mov', // This is the lion b video for version A, shuffle order 1
            coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+            { value: '1', shape: "rect", coordinates: "85, 625, 300, 840" }, // just two
+            { value: '2', shape: "rect", coordinates: "350, 625, 565, 840" }, // a few
+            { value: '3', shape: "rect", coordinates: "620, 625, 830, 840" },//some
+            { value: '4', shape: "rect", coordinates: "880, 625, 1095, 840" },//most
+            { value: '5', shape: "rect", coordinates: "1150, 625, 1360, 840" }], // all,
         },
       }     
     ]
@@ -914,11 +914,11 @@ var shuffleorder2 = [
         parameters: {
           filename: '../../../assets/movie/version_a/25 Cheetah B.m4v', // This is the cheetah b video for version A, shuffle order 2
             coordinates: [
-        { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-        { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-        { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-        { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-        { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+            { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
+            { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
+            { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
+            { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
+            { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
         },
       }     
     ]
@@ -933,11 +933,11 @@ var shuffleorder2 = [
         parameters: {
           filename: '../../../assets/movie/version_a/29 Porcupine C.m4v', // This is the Porc.c video for version A, shuffle order 2
             coordinates: [
-        { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-        { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-        { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-        { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-        { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+              { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
+              { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
+              { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
+              { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
+              { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
         },
       }     
     ]
@@ -952,11 +952,11 @@ var shuffleorder2 = [
         parameters: {
           filename: '../../../assets/movie/version_a/26 Giraffe A.m4v', // This is the giraffe a video for version A, shuffle order 2
             coordinates: [
-        { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-        { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-        { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-        { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-        { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+              { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
+              { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
+              { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
+              { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
+              { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
         },
       }     
     ]
@@ -971,11 +971,11 @@ var shuffleorder2 = [
         parameters: {
           filename: '../../../assets/movie/version_a/30 Shark B.m4v', // This is the shark b video for version A, shuffle order 2
             coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+              { value: '1', shape: "rect", coordinates: "85, 625, 300, 840" }, // just two
+              { value: '2', shape: "rect", coordinates: "350, 625, 565, 840" }, // a few
+              { value: '3', shape: "rect", coordinates: "620, 625, 830, 840" },//some
+              { value: '4', shape: "rect", coordinates: "880, 625, 1095, 840" },//most
+              { value: '5', shape: "rect", coordinates: "1150, 625, 1360, 840" }], // all,
         },
       }     
     ]
@@ -990,11 +990,11 @@ var shuffleorder2 = [
         parameters: {
           filename: '../../../assets/movie/version_a/27 Kangaroo C.m4v', // This is the kangaroo c video for version A, shuffle order 2
             coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+              { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
+              { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
+              { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
+              { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
+              { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
         },
       }     
     ]
@@ -1009,11 +1009,11 @@ var shuffleorder2 = [
         parameters: {
           filename: '../../../assets/movie/version_a/28 Lion A.m4v', // This is the lion a video for version A, shuffle order 2
             coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+              { value: '1', shape: "rect", coordinates: "85, 625, 300, 840" }, // just two
+              { value: '2', shape: "rect", coordinates: "350, 625, 565, 840" }, // a few
+              { value: '3', shape: "rect", coordinates: "620, 625, 830, 840" },//some
+              { value: '4', shape: "rect", coordinates: "880, 625, 1095, 840" },//most
+              { value: '5', shape: "rect", coordinates: "1150, 625, 1360, 840" }], // all,
           },
         }     
        ]
@@ -1032,11 +1032,11 @@ var shuffleorder3 = [
         parameters: {
           filename: '../../../assets/movie/version_a/25 Cheetah C.m4v', // This is the cheetah c video for version A, shuffle order 3
             coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+              { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
+              { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
+              { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
+              { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
+              { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
         },
       }     
     ]
@@ -1051,11 +1051,11 @@ var shuffleorder3 = [
         parameters: {
           filename: '../../../assets/movie/version_a/29 Porcupine A.m4v', // This is the Porc.a video for version A, shuffle order 3
             coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-            { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-            { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-            { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+              { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
+              { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
+              { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
+              { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
+              { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
         },
       }     
     ]
@@ -1070,11 +1070,11 @@ var shuffleorder3 = [
             parameters: {
               filename: '../../../assets/movie/version_a/26 Giraffe B.m4v', // This is the giraffe b video for version A, shuffle order 3
                coordinates: [
-                { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-                { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-                { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-                { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-                { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+                { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
+                { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
+                { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
+                { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
+                { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
             }
           }     
         ]
@@ -1089,11 +1089,11 @@ var shuffleorder3 = [
             parameters: {
               filename: '../../../assets/movie/version_a/30 Shark A.m4v', // This is the shark a video for version A, shuffle order 3
                coordinates: [
-                { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-                { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-                { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-                { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-                { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+                { value: '1', shape: "rect", coordinates: "85, 625, 300, 840" }, // just two
+                { value: '2', shape: "rect", coordinates: "350, 625, 565, 840" }, // a few
+                { value: '3', shape: "rect", coordinates: "620, 625, 830, 840" },//some
+                { value: '4', shape: "rect", coordinates: "880, 625, 1095, 840" },//most
+                { value: '5', shape: "rect", coordinates: "1150, 625, 1360, 840" }], // all,
             }
           }     
         ]
@@ -1108,11 +1108,11 @@ var shuffleorder3 = [
             parameters: {
               filename: '../../../assets/movie/version_a/27 Kangaroo B.m4v', // This is the kangaroo b video for version A, shuffle order 3
                coordinates: [
-                { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-                { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-                { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-                { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-                { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+                { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
+                { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
+                { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
+                { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
+                { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
             }
           }     
         ]
@@ -1127,11 +1127,11 @@ var shuffleorder3 = [
             parameters: {
               filename: '../../../assets/movie/version_a/28 Lion C.m4v', // This is the lion c video for version A, shuffle order 3
                coordinates: [
-                { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
-                { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
-                { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
-                { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
-                { value: '5', shape: "rect", coordinates: "1575, 300, 1875, 600" }], // all,
+                { value: '1', shape: "rect", coordinates: "85, 625, 300, 840" }, // just two
+                { value: '2', shape: "rect", coordinates: "350, 625, 565, 840" }, // a few
+                { value: '3', shape: "rect", coordinates: "620, 625, 830, 840" },//some
+                { value: '4', shape: "rect", coordinates: "880, 625, 1095, 840" },//most
+                { value: '5', shape: "rect", coordinates: "1150, 625, 1360, 840" }], // all,
             }
           }     
         ]
@@ -1806,30 +1806,30 @@ var versionA_shuffle3 = [
 ];
 
 var versionB_shuffle1 = [
-  forms,
-  startGame,
-  introductionvideo,
-  TrainingVideos_b,
-  shuffleorder1b,
-  endScreen
+  //forms,
+  //startGame,
+  //introductionvideo,
+  //TrainingVideos_b,
+  //shuffleorder1b,
+  //endScreen
 ];
 
 var versionB_shuffle2 = [
-  forms,
-  startGame,
-  introductionvideo,
-  TrainingVideos_b,
-  shuffleorder2b,
-  endScreen
+  //forms,
+  //startGame,
+  //introductionvideo,
+  //TrainingVideos_b,
+  //shuffleorder2b,
+  //endScreen
 ];
 
 var versionB_shuffle3 = [
-  forms,
-  startGame,
-  introductionvideo,
-  TrainingVideos_b,
-  shuffleorder3b,
-  endScreen
+  //forms,
+  //startGame,
+  //introductionvideo,
+  //TrainingVideos_b,
+  //shuffleorder3b,
+  //endScreen
   ];
 
 
