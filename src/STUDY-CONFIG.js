@@ -748,6 +748,7 @@ stimuli: [
       }
     ]
   },
+  
   //movie with no response 5.5 brothers b
   
   
@@ -762,9 +763,24 @@ stimuli: [
       }
     }     
   ]
-    } 
+    },
+
+    //movie with no response animals game transitiona
+  {
+    type: 'action',
+    id: 'agtransitionb',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/version_b/24 Animals Game Transition.m4v' // This is the introductory video for version a
+        }
+      }     
+    ]
+  }
+
  ]
-  
+
 
 
     //////////////////////////////////////SHUFFLE ORDER 1 FOR ANIMAL VIDEOS A///////////////////////////////
