@@ -18,11 +18,11 @@ export class ResponseService {
     this.DBNAME = name;
     const request = indexedDB.open(this.DBNAME);
 
-    this.db = new Promise(function(resolve, reject) {
-      request.onsuccess = function() {
+    this.db = new Promise(function (resolve, reject) {
+      request.onsuccess = function () {
         resolve(request.result);
       };
-      request.onerror = function() {
+      request.onerror = function () {
         reject(request.error);
       };
     });
@@ -151,7 +151,7 @@ export class ResponseService {
       console.log(output);
       const file = new Blob([output], { type: 'text/csv' });
       const stamp = new Date().toISOString();
-      FileSaver.saveAs(file, this.DBNAME + 'export-' + stamp + '.csv');
+      FileSaver.saveAs(file, 'test' + 'export-' + stamp + '.csv');
     });
   }
 }
