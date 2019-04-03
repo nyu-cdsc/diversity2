@@ -410,7 +410,7 @@ stimuli: [
         {
           type: 'movie',
           parameters: {
-            filename: '../../../assets/movie/version_b/2 Training 1.m4v' // This is the introductory video for version a
+            filename: '../../../assets/movie/version_b/2 Training 1.mov' // This is the introductory video for version a
           }
         }     
       ]
@@ -589,7 +589,7 @@ stimuli: [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/13 Practice Transition.mov' // This is the introductory video for version b
+              filename: '../../../assets/movie/version_b/13 Practice Transition.m4v' // This is the introductory video for version b
             }
           }     
         ]
@@ -781,14 +781,14 @@ stimuli: [
 
  ]
 
-
+///////////////////////////////////////////////////////START OF SHUFFLE ORDER VERSION 2////////////////////////////
 
     //////////////////////////////////////SHUFFLE ORDER 1 FOR ANIMAL VIDEOS A///////////////////////////////
 
 var shuffleorder1 = [
   {
     type: 'action',
-    id: 'cheetaha.a',
+    id: 'cheetah1.a',
     stimuli: [
       {
         type: 'movie',
@@ -807,7 +807,7 @@ var shuffleorder1 = [
 
   {
     type: 'action',
-    id: 'porcb.a',
+    id: 'porc2.a',
     stimuli: [
       {
         type: 'movie',
@@ -826,7 +826,7 @@ var shuffleorder1 = [
 
   {
     type: 'action',
-    id: 'girc.a',
+    id: 'gir3.a',
     stimuli: [
       {
         type: 'movie',
@@ -845,7 +845,7 @@ var shuffleorder1 = [
 
   {
     type: 'action',
-    id: 'sharkc.a',
+    id: 'shark3.a',
     stimuli: [
       {
         type: 'movie',
@@ -864,7 +864,7 @@ var shuffleorder1 = [
 
   {
     type: 'action',
-    id: 'kanga.a',
+    id: 'kang1.a',
     stimuli: [
       {
         type: 'movie',
@@ -883,7 +883,7 @@ var shuffleorder1 = [
 
   {
     type: 'action',
-    id: 'lionb.a',
+    id: 'lion2.a',
     stimuli: [
       {
         type: 'movie',
@@ -907,12 +907,12 @@ var shuffleorder1 = [
 var shuffleorder2 = [
   {
     type: 'action',
-    id: 'cheetahb.a',
+    id: 'cheetah2.a',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_a/25 Cheetah B.m4v', // This is the cheetah b video for version A, shuffle order 2
+          filename: '../../../assets/movie/version_a/25 Cheetah B.mov', // This is the cheetah b video for version A, shuffle order 2
             coordinates: [
             { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
             { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
@@ -926,12 +926,12 @@ var shuffleorder2 = [
     
   {
     type: 'action',
-    id: 'porcc.a',
+    id: 'porc3.a',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_a/29 Porcupine C.m4v', // This is the Porc.c video for version A, shuffle order 2
+          filename: '../../../assets/movie/version_a/29 Porcupine C.mov', // This is the Porc.c video for version A, shuffle order 2
             coordinates: [
               { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
               { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
@@ -945,12 +945,12 @@ var shuffleorder2 = [
     
   {
     type: 'action',
-    id: 'gira.a',
+    id: 'gir1.a',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_a/26 Giraffe A.m4v', // This is the giraffe a video for version A, shuffle order 2
+          filename: '../../../assets/movie/version_a/26 Giraffe A.mov', // This is the giraffe a video for version A, shuffle order 2
             coordinates: [
               { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
               { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
@@ -964,12 +964,12 @@ var shuffleorder2 = [
     
   {
     type: 'action',
-    id: 'sharkb.a',
+    id: 'shark2.a',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_a/30 Shark B.m4v', // This is the shark b video for version A, shuffle order 2
+          filename: '../../../assets/movie/version_a/30 Shark B.mov', // This is the shark b video for version A, shuffle order 2
             coordinates: [
               { value: '1', shape: "rect", coordinates: "85, 625, 300, 840" }, // just two
               { value: '2', shape: "rect", coordinates: "350, 625, 565, 840" }, // a few
@@ -983,12 +983,12 @@ var shuffleorder2 = [
     
   {
     type: 'action',
-    id: 'kangc.a',
+    id: 'kang3.a',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_a/27 Kangaroo C.m4v', // This is the kangaroo c video for version A, shuffle order 2
+          filename: '../../../assets/movie/version_a/27 Kangaroo C.mov', // This is the kangaroo c video for version A, shuffle order 2
             coordinates: [
               { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
               { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
@@ -1002,12 +1002,12 @@ var shuffleorder2 = [
     
   {
     type: 'action',
-    id: 'liona.a',
+    id: 'lion1.a',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_a/28 Lion A.m4v', // This is the lion a video for version A, shuffle order 2
+          filename: '../../../assets/movie/version_a/28 Lion A.mov', // This is the lion a video for version A, shuffle order 2
             coordinates: [
               { value: '1', shape: "rect", coordinates: "85, 625, 300, 840" }, // just two
               { value: '2', shape: "rect", coordinates: "350, 625, 565, 840" }, // a few
@@ -1025,12 +1025,12 @@ var shuffleorder2 = [
 var shuffleorder3 = [
   {
     type: 'action',
-    id: 'cheetahc.a',
+    id: 'cheetah3.a',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_a/25 Cheetah C.m4v', // This is the cheetah c video for version A, shuffle order 3
+          filename: '../../../assets/movie/version_a/25 Cheetah C.mov', // This is the cheetah c video for version A, shuffle order 3
             coordinates: [
               { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
               { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
@@ -1044,12 +1044,12 @@ var shuffleorder3 = [
     
   {
     type: 'action',
-    id: 'porca.a',
+    id: 'porc1.a',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_a/29 Porcupine A.m4v', // This is the Porc.a video for version A, shuffle order 3
+          filename: '../../../assets/movie/version_a/29 Porcupine A.mov', // This is the Porc.a video for version A, shuffle order 3
             coordinates: [
               { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
               { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
@@ -1068,7 +1068,7 @@ var shuffleorder3 = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_a/26 Giraffe B.m4v', // This is the giraffe b video for version A, shuffle order 3
+              filename: '../../../assets/movie/version_a/26 Giraffe B.mov', // This is the giraffe b video for version A, shuffle order 3
                coordinates: [
                 { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
                 { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
@@ -1087,7 +1087,7 @@ var shuffleorder3 = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_a/30 Shark A.m4v', // This is the shark a video for version A, shuffle order 3
+              filename: '../../../assets/movie/version_a/30 Shark A.mov', // This is the shark a video for version A, shuffle order 3
                coordinates: [
                 { value: '1', shape: "rect", coordinates: "85, 625, 300, 840" }, // just two
                 { value: '2', shape: "rect", coordinates: "350, 625, 565, 840" }, // a few
@@ -1106,7 +1106,7 @@ var shuffleorder3 = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_a/27 Kangaroo B.m4v', // This is the kangaroo b video for version A, shuffle order 3
+              filename: '../../../assets/movie/version_a/27 Kangaroo B.mov', // This is the kangaroo b video for version A, shuffle order 3
                coordinates: [
                 { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
                 { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
@@ -1125,7 +1125,7 @@ var shuffleorder3 = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_a/28 Lion C.m4v', // This is the lion c video for version A, shuffle order 3
+              filename: '../../../assets/movie/version_a/28 Lion C.mov', // This is the lion c video for version A, shuffle order 3
                coordinates: [
                 { value: '1', shape: "rect", coordinates: "85, 625, 300, 840" }, // just two
                 { value: '2', shape: "rect", coordinates: "350, 625, 565, 840" }, // a few
@@ -1138,7 +1138,7 @@ var shuffleorder3 = [
       },
     ]
 
-///////////////////////////////////////////////////////START OF SHUFFLE ORDER CONDITION 2///////////////
+///////////////////////////////////////////////////////START OF SHUFFLE ORDER VERSION 2///////////////
 
 
 //////////////////////////////////////SHUFFLE ORDER 1 FOR ANIMAL VIDEOS B///////////////////////////////
@@ -1151,10 +1151,10 @@ var shuffleorder1b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/25 Cheetah A.m4v', // This is the cheetah A video for version 2, shuffle order 1
+              filename: '../../../assets/movie/version_b/25 Cheetah A.mov', // This is the cheetah A video for version 2, shuffle order 1
                coordinates: [
                 { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
-                { value: '2', shape: "rect", coordinates: "350, 620, 725, 835" }, // a few
+                { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
                 { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                 { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                 { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
@@ -1170,13 +1170,13 @@ var shuffleorder1b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/29 Porcupine B.m4v', // This is the Porc. b video for version A, shuffle order 1
+              filename: '../../../assets/movie/version_b/29 Porcupine B.mov', // This is the Porc. b video for version A, shuffle order 1
                coordinates: [
-                  { value: '1', shape: "rect", coordinates: "90, 535, 300, 745" }, // just two
-                  { value: '2', shape: "rect", coordinates: "350, 535, 560, 745" }, // a few
-                  { value: '3', shape: "rect", coordinates: "615, 535, 830, 745" },//some
-                  { value: '4', shape: "rect", coordinates: "880, 535, 1090, 745" },//most
-                  { value: '5', shape: "rect", coordinates: "1140, 535, 1355, 745" }], // all,
+                { value: '1', shape: "rect", coordinates: "90, 535, 300, 745" }, // just two
+                { value: '2', shape: "rect", coordinates: "350, 535, 560, 745" }, // a few
+                { value: '3', shape: "rect", coordinates: "615, 535, 830, 745" },//some
+                { value: '4', shape: "rect", coordinates: "880, 535, 1090, 745" },//most
+                { value: '5', shape: "rect", coordinates: "1140, 535, 1355, 745" }], // all,
             }
           }     
         ]
@@ -1189,7 +1189,7 @@ var shuffleorder1b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/26 Giraffe C.m4v', // This is the giraffe c video for version A, shuffle order 1
+              filename: '../../../assets/movie/version_b/26 Giraffe C.mov', // This is the giraffe c video for version A, shuffle order 1
                coordinates: [
                 { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
                 { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
@@ -1208,7 +1208,7 @@ var shuffleorder1b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/30 Shark C.m4v', // This is the shark c video for version A, shuffle order 1
+              filename: '../../../assets/movie/version_b/30 Shark C.mov', // This is the shark c video for version A, shuffle order 1
                coordinates: [
                 { value: '1', shape: "rect", coordinates: "90, 560, 300, 775" }, // just two
                 { value: '2', shape: "rect", coordinates: "355, 560, 565, 775" }, // a few
@@ -1227,10 +1227,10 @@ var shuffleorder1b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/27 Kangaroo A.m4v', // This is the kangaroo a video for version A, shuffle order 1
+              filename: '../../../assets/movie/version_b/27 Kangaroo A.mov', // This is the kangaroo a video for version A, shuffle order 1
                coordinates: [
                 { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
-                { value: '2', shape: "rect", coordinates: "350, 620, 725, 835" }, // a few
+                { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
                 { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                 { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                 { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
@@ -1246,10 +1246,10 @@ var shuffleorder1b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/28 Lion B.m4v', // This is the lion b video for version A, shuffle order 1
+              filename: '../../../assets/movie/version_b/28 Lion B.mov', // This is the lion b video for version A, shuffle order 1
                coordinates: [
                 { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
-                { value: '2', shape: "rect", coordinates: "350, 620, 725, 835" }, // a few
+                { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
                 { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                 { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                 { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
@@ -1270,10 +1270,10 @@ var shuffleorder2b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/25 Cheetah B.m4v', // This is the cheetah b video for version A, shuffle order 2
+              filename: '../../../assets/movie/version_b/25 Cheetah B.mov', // This is the cheetah b video for version A, shuffle order 2
                 coordinates: [
                   { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
-                  { value: '2', shape: "rect", coordinates: "350, 620, 725, 835" }, // a few
+                  { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
@@ -1289,7 +1289,7 @@ var shuffleorder2b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/29 Porcupine C.m4v', // This is the Porc.c video for version A, shuffle order 2
+              filename: '../../../assets/movie/version_b/29 Porcupine C.mov', // This is the Porc.c video for version A, shuffle order 2
                 coordinates: [
                   { value: '1', shape: "rect", coordinates: "90, 535, 300, 745" }, // just two
                   { value: '2', shape: "rect", coordinates: "350, 535, 560, 745" }, // a few
@@ -1308,7 +1308,7 @@ var shuffleorder2b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/26 Giraffe A.m4v', // This is the giraffe a video for version A, shuffle order 2
+              filename: '../../../assets/movie/version_b/26 Giraffe A.mov', // This is the giraffe a video for version A, shuffle order 2
                 coordinates: [
                   { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
                   { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
@@ -1327,7 +1327,7 @@ var shuffleorder2b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/30 Shark B.m4v', // This is the shark b video for version A, shuffle order 2
+              filename: '../../../assets/movie/version_b/30 Shark B.mov', // This is the shark b video for version A, shuffle order 2
                 coordinates: [
                   { value: '1', shape: "rect", coordinates: "90, 560, 300, 775" }, // just two
                   { value: '2', shape: "rect", coordinates: "355, 560, 565, 775" }, // a few
@@ -1346,10 +1346,10 @@ var shuffleorder2b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/27 Kangaroo C.m4v', // This is the kangaroo c video for version A, shuffle order 2
+              filename: '../../../assets/movie/version_b/27 Kangaroo C.mov', // This is the kangaroo c video for version A, shuffle order 2
                 coordinates: [
                   { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
-                  { value: '2', shape: "rect", coordinates: "350, 620, 725, 835" }, // a few
+                  { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
@@ -1365,10 +1365,10 @@ var shuffleorder2b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/28 Lion A.m4v', // This is the lion a video for version A, shuffle order 2
+              filename: '../../../assets/movie/version_b/28 Lion A.mov', // This is the lion a video for version A, shuffle order 2
                 coordinates: [
                   { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
-                  { value: '2', shape: "rect", coordinates: "350, 620, 725, 835" }, // a few
+                  { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
@@ -1391,10 +1391,10 @@ var shuffleorder3b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/25 Cheetah C.m4v', // This is the cheetah c video for version A, shuffle order 3
+              filename: '../../../assets/movie/version_b/25 Cheetah C.mov', // This is the cheetah c video for version A, shuffle order 3
                 coordinates: [
                   { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
-                  { value: '2', shape: "rect", coordinates: "350, 620, 725, 835" }, // a few
+                  { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
@@ -1410,7 +1410,7 @@ var shuffleorder3b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/29 Porcupine A.m4v', // This is the Porc.a video for version A, shuffle order 3
+              filename: '../../../assets/movie/version_b/29 Porcupine A.mov', // This is the Porc.a video for version A, shuffle order 3
                 coordinates: [
                   { value: '1', shape: "rect", coordinates: "90, 535, 300, 745" }, // just two
                   { value: '2', shape: "rect", coordinates: "350, 535, 560, 745" }, // a few
@@ -1429,13 +1429,13 @@ var shuffleorder3b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/26 Giraffe B.m4v', // This is the giraffe b video for version A, shuffle order 3
+              filename: '../../../assets/movie/version_b/26 Giraffe B.mov', // This is the giraffe b video for version A, shuffle order 3
                 coordinates: [
-                { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
-                { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
-                { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
-                { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
-                { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
+                  { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
+                  { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
+                  { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
+                  { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
+                  { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
             }
           }     
         ]
@@ -1448,13 +1448,13 @@ var shuffleorder3b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/30 Shark A.m4v', // This is the shark a video for version A, shuffle order 3
+              filename: '../../../assets/movie/version_b/30 Shark A.mov', // This is the shark a video for version A, shuffle order 3
                 coordinates: [
-                  { value: '1', shape: "rect", coordinates: "90, 560, 300, 775" }, // just two
-                  { value: '2', shape: "rect", coordinates: "355, 560, 565, 775" }, // a few
-                  { value: '3', shape: "rect", coordinates: "615, 560, 830, 775" },//some
-                  { value: '4', shape: "rect", coordinates: "880, 560, 1090, 775" },//most
-                  { value: '5', shape: "rect", coordinates: "1140, 560, 1355, 775" }], // all,
+                { value: '1', shape: "rect", coordinates: "90, 560, 300, 775" }, // just two
+                { value: '2', shape: "rect", coordinates: "355, 560, 565, 775" }, // a few
+                { value: '3', shape: "rect", coordinates: "615, 560, 830, 775" },//some
+                { value: '4', shape: "rect", coordinates: "880, 560, 1090, 775" },//most
+                { value: '5', shape: "rect", coordinates: "1140, 560, 1355, 775" }], // all,
             }
           }     
         ]
@@ -1467,10 +1467,10 @@ var shuffleorder3b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/27 Kangaroo B.m4v', // This is the kangaroo b video for version A, shuffle order 3
+              filename: '../../../assets/movie/version_b/27 Kangaroo B.mov', // This is the kangaroo b video for version A, shuffle order 3
                 coordinates: [
                   { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
-                  { value: '2', shape: "rect", coordinates: "350, 620, 725, 835" }, // a few
+                  { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
@@ -1486,10 +1486,10 @@ var shuffleorder3b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/28 Lion C.m4v', // This is the lion c video for version A, shuffle order 3
+              filename: '../../../assets/movie/version_b/28 Lion C.mov', // This is the lion c video for version A, shuffle order 3
                 coordinates: [
                   { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
-                  { value: '2', shape: "rect", coordinates: "350, 620, 725, 835" }, // a few
+                  { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
@@ -1824,7 +1824,7 @@ var versionB_shuffle2 = [
 ];
 
 var versionB_shuffle3 = [
-  //forms,
+forms,
   //startGame,
   //introductionvideo,
   //TrainingVideos_b,
@@ -1865,12 +1865,12 @@ var versionB_shuffle3 = [
 export const Project = {
   conditions: [ // list all of your conditions here. Participants are randomly assigned to one of them
     versionA_shuffle1,
-    //versionA_shuffle2,
-    //versionA_shuffle3,
-    //versionB_shuffle1,
-    //versionB_shuffle2,
-    //versionB_shuffle3
-    // Condition2
+    versionA_shuffle2,
+    versionA_shuffle3,
+    versionB_shuffle1,
+    versionB_shuffle2,
+    versionB_shuffle3
+    
   ],
   name: "Diversity2", 
   ended: { // this what happens when your study ends i.e., the last thing that happens before the study restarts
