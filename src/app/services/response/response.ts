@@ -14,6 +14,7 @@ export class Response {
     this.data.set('id', input ? input.id : Date.now()); // todo make better
     this.data.set('datestamp', input ? input.datestamp : new Date().toISOString());
     this.data.set('participant', input ? input.participant : -1);
+    this.data.set('block', input ? input.block : '');
     this.data.set('action', input ? input.action : '');
     this.data.set('response', input ? input.response : '');
 
@@ -30,9 +31,13 @@ export class Response {
 
   // returns header string - call this first
   getCSVHeader() {
-    console.log('the data', Array.from(this.data.keys()));
+
     const keys = Array.from(this.data.keys());
     let output = keys.reduce((accum, current, idx) => {
+      if (current === 'block') {
+        return '';
+      }
+
       if (idx === 1) {
         accum = accum + ',';
       }
@@ -48,17 +53,25 @@ export class Response {
   // returns csv formatted version of the object (excluding header)
   toCSV() {
     const keys = Array.from(this.data.keys());
+    const values = Array.from(this.data.values());
+
     const output = keys.reduce((accum, cur, idx) => {
       // if (idx === 1) {
       //   accum = this.data[accum].toString() + ',';
       // }
 
+      if (keys[idx] === 'block') {
+        return '';
+      }
+
       let temp = '';
-      if (this.data[cur] === Object(this.data[cur])) {
-        temp = JSON.stringify(this.data[cur]);
+
+      if (values[idx] === Object(values[idx])) {
+        temp = JSON.stringify(values[idx]);
       } else {
-        console.log('this.data[cur]', this.data, cur, this.data[cur]);
-        temp = this.data[cur].toString();
+        // console.log('this.data[cur]', this.data, cur, this.data[cur], 'TRYING', Object.keys(this.data));
+
+        temp = values[idx].toString();
         if (temp.indexOf(',') !== -1) {
           temp = '"' + temp + '"';
         }
