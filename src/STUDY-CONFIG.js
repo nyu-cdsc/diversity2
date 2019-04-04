@@ -2,25 +2,25 @@
 // As a note, you can delete any of the commented stuff if you don't need to use the code!
 
 ///////// Stimuli /////////
-var introductionvideo= [
+//var introductionvideo= [
   // movie where no response is recorded
-  {
-    type: 'action',
-    id: 'studyIntro',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/version_a/1 Study Intro.m4v' // This is the introductory video for version a
-        }
-      }     
-    ]
-  },
-]
+//   {
+//     type: 'action',
+//     id: 'studyIntro',
+//     stimuli: [
+//       {
+//         type: 'movie',
+//         parameters: {
+//           filename: '../../../assets/movie/version_a/1 Study Intro.m4v' // This is the introductory video for version a
+//         }
+//       }     
+//     ]
+//   },
+// ]
 
-var TrainingVideos_a = [
-  //movie with no response 1a
-   {
+ var TrainingVideos_a = [
+ // movie with no response 1a
+  {
      type: 'action',
      id: 'training1a',
      stimuli: [
@@ -42,7 +42,7 @@ var TrainingVideos_a = [
         parameters: {
           filename: '../../../assets/movie/version_a/3 Training Recording 2.m4v', // movie, first one that records stimuli
           coordinates: [
-            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600" }, // just two
+            { value: '1', shape: "rect", coordinates: "50, 300, 350, 600"  }, // just two
             { value: '2', shape: "rect", coordinates: "425, 300, 725, 600" }, // a few
             { value: '3', shape: "rect", coordinates: "800, 300, 1100, 600" },//some
             { value: '4', shape: "rect", coordinates: "1175, 300, 1475, 600" },//most
@@ -66,7 +66,7 @@ var TrainingVideos_a = [
     ]
   },
 
- // movie where a response is recorded 3a
+ //movie where a response is recorded 3a
 
  {
   type: 'action',
@@ -166,7 +166,7 @@ var TrainingVideos_a = [
         }     
       ]
     },
-    // movie where a response is recorded 6a
+    //movie where a response is recorded 6a
 
     {
       type: 'action',
@@ -199,7 +199,7 @@ var TrainingVideos_a = [
         }     
       ]
     },
-    //movie with no response practicetransitiona
+   //movie with no response practicetransitiona
     {
       type: 'action',
       id: 'ptransitiona',
@@ -224,11 +224,12 @@ var TrainingVideos_a = [
           parameters: {
             filename: '../../../assets/movie/version_a/14 Item Training 1 Cake.m4v', // movie
             coordinates: [
-              { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+            { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
             { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
             { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
             { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995"}], // all,
+            delayResponse: '2'
           }
         }
       ]
@@ -241,13 +242,20 @@ var TrainingVideos_a = [
         {
           type: 'movie',
           parameters: {
-            filename: '../../../assets/movie/version_a/15 Item Training 1.5 Cake.m4v' // This is the introductory video for version a
+            filename: '../../../assets/movie/version_a/15 Item Training 1.5 Cake.m4v', // This is the introductory video for version a
+            coordinates: [
+              { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+              { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+              { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+              { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+              { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995"}], // all,
+              delayResponse: '2'
           }
         }     
       ]
     },
       
-    // movie where a response is recorded 2 fingers a
+    //movie where a response is recorded 2 fingers a
 
     {
       type: 'action',
@@ -262,7 +270,8 @@ var TrainingVideos_a = [
             { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
             { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
             { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
-            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }],// all,
+            delayResponse: '2' 
           }
         }
       ]
@@ -275,7 +284,14 @@ var TrainingVideos_a = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_a/17 Item Training 2.5 Fingers.m4v' // This is the introductory video for version a
+          filename: '../../../assets/movie/version_a/17 Item Training 2.5 Fingers.m4v', // This is the introductory video for version a
+        coordinates: [
+            { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+            { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+            { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+            { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+            { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }],// all,
+            delayResponse: '2' 
         }
       }     
     ]
@@ -296,6 +312,7 @@ var TrainingVideos_a = [
             { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
             { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
             { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+            delayResponse: '2'
         }
       }
     ]
@@ -308,7 +325,14 @@ var TrainingVideos_a = [
     {
       type: 'movie',
       parameters: {
-        filename: '../../../assets/movie/version_a/19 Item Training 3.5 Girls.m4v' // This is the introductory video for version a
+        filename: '../../../assets/movie/version_a/19 Item Training 3.5 Girls.m4v', // This is the introductory video for version a
+          coordinates: [
+          { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+          { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+          { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+          { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+          { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+          delayResponse: '2'
       }
     }     
   ]
@@ -329,6 +353,7 @@ var TrainingVideos_a = [
             { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
             { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
             { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+            delayResponse: '2'
       }
     }
   ]
@@ -341,7 +366,14 @@ stimuli: [
   {
     type: 'movie',
     parameters: {
-      filename: '../../../assets/movie/version_a/21 Item Training 4.5 Pool.m4v' // This is the introductory video for version a
+      filename: '../../../assets/movie/version_a/21 Item Training 4.5 Pool.m4v', // This is the introductory video for version a
+      coordinates: [
+        { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+        { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+        { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+        { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+        { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+        delayResponse: '2'
     }
   }     
 ]
@@ -362,6 +394,7 @@ stimuli: [
             { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
             { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
             { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+            delayResponse:'2'
       }
     }
   ]
@@ -376,7 +409,14 @@ stimuli: [
   {
     type: 'movie',
     parameters: {
-      filename: '../../../assets/movie/version_a/23 Item Training 5.5 Brothers.m4v' // This is the introductory video for version a
+      filename: '../../../assets/movie/version_a/23 Item Training 5.5 Brothers.m4v', // This is the introductory video for version a
+      coordinates: [
+        { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+        { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+        { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+        { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+        { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+        delayResponse:'2'
     }
   }     
 ]
@@ -606,11 +646,12 @@ stimuli: [
             parameters: {
               filename: '../../../assets/movie/version_b/14 Item Training Cake a.m4v', // movie
               coordinates: [
-                { value: '1', shape: "rect", coordinates: "50, 690, 355, 995" }, // just two
+            { value: '1', shape: "rect", coordinates: "50, 690, 355, 995" }, // just two
             { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
             { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
             { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
             { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+            delayResponse: '2'
             }
           }
         ]
@@ -623,7 +664,14 @@ stimuli: [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/15 Item Training Cake b.m4v' // This is the introductory video for version a
+              filename: '../../../assets/movie/version_b/15 Item Training Cake b.m4v', // This is the introductory video for version a
+              coordinates: [
+                { value: '1', shape: "rect", coordinates: "50, 690, 355, 995" }, // just two
+                { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+                { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+                { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+                { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+                delayResponse: '2'
             }
           }     
         ]
@@ -645,6 +693,7 @@ stimuli: [
             { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
             { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
             { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+            delayResponse: '2'
             }
           }
         ]
@@ -657,7 +706,14 @@ stimuli: [
         {
           type: 'movie',
           parameters: {
-            filename: '../../../assets/movie/version_b/17 Item Training Fingers b.m4v' // This is the introductory video for version a
+            filename: '../../../assets/movie/version_b/17 Item Training Fingers b.m4v', // This is the introductory video for version a
+            coordinates: [
+          { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+          { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+          { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+          { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+          { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+          delayResponse: '2'
           }
         }     
       ]
@@ -678,6 +734,7 @@ stimuli: [
             { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
             { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
             { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+            delayResponse: '2'
           }
         }
       ]
@@ -690,7 +747,14 @@ stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_b/19 Item Training Girls b.m4v' // This is the introductory video for version a
+          filename: '../../../assets/movie/version_b/19 Item Training Girls b.m4v', // This is the introductory video for version a
+          coordinates: [
+            { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+          { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+          { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+          { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+          { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+          delayResponse: '2'
         }
       }     
     ]
@@ -711,6 +775,7 @@ stimuli: [
             { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
             { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
             { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+            delayResponse: '2'
         }
       }
     ]
@@ -723,7 +788,14 @@ stimuli: [
     {
       type: 'movie',
       parameters: {
-        filename: '../../../assets/movie/version_b/21 Item Training Pool b.m4v' // This is the introductory video for version a
+        filename: '../../../assets/movie/version_b/21 Item Training Pool b.m4v', // This is the introductory video for version a
+        coordinates: [
+          { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+          { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+          { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+          { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+          { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+          delayResponse: '2'
       }
     }     
   ]
@@ -744,6 +816,7 @@ stimuli: [
             { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
             { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
             { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+            delayResponse:'2'
         }
       }
     ]
@@ -759,7 +832,14 @@ stimuli: [
     {
       type: 'movie',
       parameters: {
-        filename: '../../../assets/movie/version_b/23 Item Training Baby b.m4v' // This is the introductory video for version a
+        filename: '../../../assets/movie/version_b/23 Item Training Baby b.m4v', // This is the introductory video for version a
+        coordinates: [
+          { value: '1', shape: "rect", coordinates: "50, 690, 350, 995" }, // just two
+          { value: '2', shape: "rect", coordinates: "425, 690, 725, 995" }, // a few
+          { value: '3', shape: "rect", coordinates: "800, 690, 1100, 995" },//some
+          { value: '4', shape: "rect", coordinates: "1175, 690, 1475, 995" },//most
+          { value: '5', shape: "rect", coordinates: "1575, 690, 1875, 995" }], // all,
+          delayResponse:'2'
       }
     }     
   ]
@@ -800,6 +880,7 @@ var shuffleorder1 = [
             { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
             { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
             { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
+            delayResponse: '2'
         },
       }     
     ]
@@ -819,6 +900,7 @@ var shuffleorder1 = [
             { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
             { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
             { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
+            delayResponse: '2 '
         },
       }     
     ]
@@ -838,6 +920,7 @@ var shuffleorder1 = [
             { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
             { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
             { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
+            delayResponse: '2 '
         },
       }     
     ]
@@ -850,13 +933,14 @@ var shuffleorder1 = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_a/30 Shark C.mov', // This is the shark c video for version A, shuffle order 1
+          filename: '../../../assets/movie/version_a/30 Shark A.mov', // This is the shark c video for version A, shuffle order 1
            coordinates: [
                 { value: '1', shape: "rect", coordinates: "85, 625, 300, 840" }, // just two
                 { value: '2', shape: "rect", coordinates: "350, 625, 565, 840" }, // a few
                 { value: '3', shape: "rect", coordinates: "620, 625, 830, 840" },//some
                 { value: '4', shape: "rect", coordinates: "880, 625, 1095, 840" },//most
                 { value: '5', shape: "rect", coordinates: "1150, 625, 1360, 840" }], // all,
+                delayResponse: '2 '
         },
       }     
     ]
@@ -869,13 +953,14 @@ var shuffleorder1 = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_a/27 Kangaroo A.mov', // This is the kangaroo a video for version A, shuffle order 1
+          filename: '../../../assets/movie/version_a/27 Kangaroo B.mov', // This is the kangaroo a video for version A, shuffle order 1
            coordinates: [
             { value: '1', shape: "rect", coordinates: "80, 605, 295, 820" }, // just two
             { value: '2', shape: "rect", coordinates: "350, 605, 560, 820" }, // a few
             { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
             { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
             { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
+            delayResponse: '2 '
         },
       }     
     ]
@@ -888,13 +973,14 @@ var shuffleorder1 = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/version_a/28 Lion B.mov', // This is the lion b video for version A, shuffle order 1
+          filename: '../../../assets/movie/version_a/28 Lion C.mov', // This is the lion b video for version A, shuffle order 1
            coordinates: [
             { value: '1', shape: "rect", coordinates: "85, 625, 300, 840" }, // just two
             { value: '2', shape: "rect", coordinates: "350, 625, 565, 840" }, // a few
             { value: '3', shape: "rect", coordinates: "620, 625, 830, 840" },//some
             { value: '4', shape: "rect", coordinates: "880, 625, 1095, 840" },//most
             { value: '5', shape: "rect", coordinates: "1150, 625, 1360, 840" }], // all,
+            delayResponse: '2 '
         },
       }     
     ]
@@ -919,6 +1005,7 @@ var shuffleorder2 = [
             { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
             { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
             { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
+            delayResponse: '2 '
         },
       }     
     ]
@@ -938,6 +1025,7 @@ var shuffleorder2 = [
               { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
               { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
               { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
+              delayResponse: '2 '
         },
       }     
     ]
@@ -957,6 +1045,7 @@ var shuffleorder2 = [
               { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
               { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
               { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
+              delayResponse: '2 '
         },
       }     
     ]
@@ -976,6 +1065,7 @@ var shuffleorder2 = [
               { value: '3', shape: "rect", coordinates: "620, 625, 830, 840" },//some
               { value: '4', shape: "rect", coordinates: "880, 625, 1095, 840" },//most
               { value: '5', shape: "rect", coordinates: "1150, 625, 1360, 840" }], // all,
+              delayResponse: '2 '
         },
       }     
     ]
@@ -995,6 +1085,7 @@ var shuffleorder2 = [
               { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
               { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
               { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
+              delayResponse: '2 '
         },
       }     
     ]
@@ -1014,6 +1105,7 @@ var shuffleorder2 = [
               { value: '3', shape: "rect", coordinates: "620, 625, 830, 840" },//some
               { value: '4', shape: "rect", coordinates: "880, 625, 1095, 840" },//most
               { value: '5', shape: "rect", coordinates: "1150, 625, 1360, 840" }], // all,
+              delayResponse: '2 '
           },
         }     
        ]
@@ -1037,6 +1129,7 @@ var shuffleorder3 = [
               { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
               { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
               { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
+              delayResponse: '2 '
         },
       }     
     ]
@@ -1056,6 +1149,7 @@ var shuffleorder3 = [
               { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
               { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
               { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
+              delayResponse: '2 '
         },
       }     
     ]
@@ -1075,6 +1169,7 @@ var shuffleorder3 = [
                 { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
                 { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
                 { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
+                delayResponse: '2 '
             }
           }     
         ]
@@ -1094,6 +1189,7 @@ var shuffleorder3 = [
                 { value: '3', shape: "rect", coordinates: "620, 625, 830, 840" },//some
                 { value: '4', shape: "rect", coordinates: "880, 625, 1095, 840" },//most
                 { value: '5', shape: "rect", coordinates: "1150, 625, 1360, 840" }], // all,
+                delayResponse: '2 '
             }
           }     
         ]
@@ -1113,6 +1209,7 @@ var shuffleorder3 = [
                 { value: '3', shape: "rect", coordinates: "620, 605, 835, 820" },//some
                 { value: '4', shape: "rect", coordinates: "880, 605, 1095, 820" },//most
                 { value: '5', shape: "rect", coordinates: "1150, 605, 1360, 820" }], // all,
+                delayResponse: '2 '
             }
           }     
         ]
@@ -1132,6 +1229,7 @@ var shuffleorder3 = [
                 { value: '3', shape: "rect", coordinates: "620, 625, 830, 840" },//some
                 { value: '4', shape: "rect", coordinates: "880, 625, 1095, 840" },//most
                 { value: '5', shape: "rect", coordinates: "1150, 625, 1360, 840" }], // all,
+                delayResponse: '2 '
             }
           }     
         ]
@@ -1158,6 +1256,7 @@ var shuffleorder1b = [
                 { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                 { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                 { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
+                delayResponse: '2 '
             }
           }     
         ]
@@ -1177,6 +1276,7 @@ var shuffleorder1b = [
                 { value: '3', shape: "rect", coordinates: "615, 535, 830, 745" },//some
                 { value: '4', shape: "rect", coordinates: "880, 535, 1090, 745" },//most
                 { value: '5', shape: "rect", coordinates: "1140, 535, 1355, 745" }], // all,
+                delayResponse: '2 '
             }
           }     
         ]
@@ -1196,6 +1296,7 @@ var shuffleorder1b = [
                 { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                 { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                 { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
+                delayResponse: '2 '
             }
           }     
         ]
@@ -1208,13 +1309,14 @@ var shuffleorder1b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/30 Shark C.mov', // This is the shark c video for version A, shuffle order 1
+              filename: '../../../assets/movie/version_b/30 Shark A.mov', // This is the shark c video for version A, shuffle order 1
                coordinates: [
                 { value: '1', shape: "rect", coordinates: "90, 560, 300, 775" }, // just two
                 { value: '2', shape: "rect", coordinates: "355, 560, 565, 775" }, // a few
                 { value: '3', shape: "rect", coordinates: "615, 560, 830, 775" },//some
                 { value: '4', shape: "rect", coordinates: "880, 560, 1090, 775" },//most
                 { value: '5', shape: "rect", coordinates: "1140, 560, 1355, 775" }], // all,
+                delayResponse: '2 '
             }
           }     
         ]
@@ -1227,13 +1329,14 @@ var shuffleorder1b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/27 Kangaroo A.mov', // This is the kangaroo a video for version A, shuffle order 1
+              filename: '../../../assets/movie/version_b/27 Kangaroo B.mov', // This is the kangaroo a video for version A, shuffle order 1
                coordinates: [
                 { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
                 { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
                 { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                 { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                 { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
+                delayResponse: '2 '
             }
           }     
         ]
@@ -1246,13 +1349,14 @@ var shuffleorder1b = [
           {
             type: 'movie',
             parameters: {
-              filename: '../../../assets/movie/version_b/28 Lion B.mov', // This is the lion b video for version A, shuffle order 1
+              filename: '../../../assets/movie/version_b/28 Lion C.mov', // This is the lion b video for version A, shuffle order 1
                coordinates: [
                 { value: '1', shape: "rect", coordinates: "90, 620, 300, 835" }, // just two
                 { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
                 { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                 { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                 { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
+                delayResponse: '2 '
             }
           }     
         ]
@@ -1277,6 +1381,7 @@ var shuffleorder2b = [
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
+                  delayResponse: '2 '
             }
           }     
         ]
@@ -1296,6 +1401,7 @@ var shuffleorder2b = [
                   { value: '3', shape: "rect", coordinates: "615, 535, 830, 745" },//some
                   { value: '4', shape: "rect", coordinates: "880, 535, 1090, 745" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 535, 1355, 745" }], // all,
+                  delayResponse: '2 '
             }
           }     
         ]
@@ -1315,6 +1421,7 @@ var shuffleorder2b = [
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
+                  delayResponse: '2 '
             }
           }     
         ]
@@ -1334,6 +1441,7 @@ var shuffleorder2b = [
                   { value: '3', shape: "rect", coordinates: "615, 560, 830, 775" },//some
                   { value: '4', shape: "rect", coordinates: "880, 560, 1090, 775" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 560, 1355, 775" }], // all,
+                  delayResponse: '2 '
             }
           }     
         ]
@@ -1353,6 +1461,7 @@ var shuffleorder2b = [
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
+                  delayResponse: '2 '
             }
           }     
         ]
@@ -1372,6 +1481,7 @@ var shuffleorder2b = [
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
+                  delayResponse: '2 '
             }
           }     
         ]
@@ -1398,6 +1508,7 @@ var shuffleorder3b = [
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
+                  delayResponse: '2 '
             }
           }     
         ]
@@ -1417,6 +1528,7 @@ var shuffleorder3b = [
                   { value: '3', shape: "rect", coordinates: "615, 535, 830, 745" },//some
                   { value: '4', shape: "rect", coordinates: "880, 535, 1090, 745" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 535, 1355, 745" }], // all,
+                  delayResponse: '2 '
             }
           }     
         ]
@@ -1436,6 +1548,7 @@ var shuffleorder3b = [
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
+                  delayResponse: '2 '
             }
           }     
         ]
@@ -1455,6 +1568,7 @@ var shuffleorder3b = [
                 { value: '3', shape: "rect", coordinates: "615, 560, 830, 775" },//some
                 { value: '4', shape: "rect", coordinates: "880, 560, 1090, 775" },//most
                 { value: '5', shape: "rect", coordinates: "1140, 560, 1355, 775" }], // all,
+                delayResponse: '2 '
             }
           }     
         ]
@@ -1473,7 +1587,8 @@ var shuffleorder3b = [
                   { value: '2', shape: "rect", coordinates: "350, 620, 560, 835" }, // a few
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
-                  { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
+                  { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all
+                  delayResponse: '2 ',
             },
           }     
         ]
@@ -1493,6 +1608,7 @@ var shuffleorder3b = [
                   { value: '3', shape: "rect", coordinates: "615, 620, 830, 835" },//some
                   { value: '4', shape: "rect", coordinates: "880, 620, 1090, 835" },//most
                   { value: '5', shape: "rect", coordinates: "1140, 620, 1355, 835" }], // all,
+                  delayResponse: '2 '
             },
           }     
         ]
@@ -1806,30 +1922,30 @@ var versionA_shuffle3 = [
 ];
 
 var versionB_shuffle1 = [
-  //forms,
-  //startGame,
-  //introductionvideo,
-  //TrainingVideos_b,
-  //shuffleorder1b,
-  //endScreen
+  forms,
+  startGame,
+  introductionvideo,
+  TrainingVideos_b,
+  shuffleorder1b,
+  endScreen
 ];
 
 var versionB_shuffle2 = [
-  //forms,
-  //startGame,
-  //introductionvideo,
-  //TrainingVideos_b,
-  //shuffleorder2b,
-  //endScreen
+  forms,
+  startGame,
+  introductionvideo,
+  TrainingVideos_b,
+  shuffleorder2b,
+  endScreen
 ];
 
 var versionB_shuffle3 = [
-forms,
-  //startGame,
-  //introductionvideo,
-  //TrainingVideos_b,
-  //shuffleorder3b,
-  //endScreen
+  forms,
+  startGame,
+  introductionvideo,
+  TrainingVideos_b,
+  shuffleorder3b,
+  endScreen
   ];
 
 
